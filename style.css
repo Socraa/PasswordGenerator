@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, brown, rgb(166, 99, 99))
+
+}
+
+.container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid burlywood;
+    border-radius: 15px;
+    height: 500px;
+    width: 450px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+}
+
+.item:nth-child(1){
+    height: 60px;
+}
+.item:nth-child(2){
+
+    height: 60px;
+}
+#inputLenght{
+    height: 30px;
+    border-radius: 15px;
+    background-color: beige;
+    border: 0px ;
+    text-align: center;
+    font-size: 100%;
+    width: 90px;
+}
+
+.item:nth-child(3){
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    flex-grow: 1;
+}
+.checkDiv{
+    display: flex;
+    align-items: center; /* Center align the checkbox and label within each item */
+    margin: 5px 0; /* Spacing between items */
+}
+
+
+.item:nth-child(4){
+    height: 100px;
+
+}
+#generate{
+    height: 40px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: beige;
+}
+#generate:hover{
+    background-color: rgb(205, 205, 185);
+}
+#generate:active{
+    height: 39px;
+    background-color: beige;
+}
